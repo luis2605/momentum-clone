@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.container{
+    padding: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background-boxes{
+    background-color: black;
+    opacity: 0.7;
+    padding: .5em 1em;
+    
+    border-radius: 15px;
+}
+
+.crypto{
+    font-size: .7rem;
+    display: inline;
+    margin-bottom: 10em;
+}
+.weather{
+    text-align: center;
+}
+#date-time{
+    padding: 3em  ;
+}
+#references{
+    display: inline-flex;
+    padding: 1em 3em 1em 1em; 
+    
+    
+    
+
+}
+.links-style{
+    text-decoration: none;
+    color: rgb(107, 138, 173);
+}
+.spacing-right{
+    margin-right: .5em;
+}
+.crypto-logos{
+    width: 15%;
+}
+#autor-name{
+    display: inline;
+}
